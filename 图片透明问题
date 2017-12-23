@@ -6,7 +6,7 @@ div.background
 {
   width: 400px;
   height: 266px;
-  background: url('/i/tulip_peach_blossom_w.jpg') no-repeat;
+  background: url('1.jpg') no-repeat;
   border: 1px solid black;
 }
 
