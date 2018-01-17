@@ -6,7 +6,7 @@ body
   background-image:url('/i/eg_bg_03.gif');
   background-repeat:no-repeat;
   background-attachment:fixed;
-  <固定背景图片的位置>
+  /*固定背景图片的位置*/
   background-position:center;
 }
 </style>
