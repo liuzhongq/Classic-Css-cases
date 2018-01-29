@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        ul,ol{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+        }
+        #menu li{
+            width: 120px;
+            height: 30px;
+            float: left;
+            margin-right: 1px;
+
+        }
+        #menu .main-menu{
+            background: purple;
+            color: #ffffff;
+            width: 100%;
+            height: 100%;
+            display: block;
+            text-indent: 10px;
+            line-height: 30px;
+        }
+        #menu a:hover{
+            background: orangered;
+        }
+        #menu .sub-menu{
+            background: #cccccc;
+            overflow: hidden;
+            display: none;
+        }
+        #menu .sub-menu li{
+            float: none;
+        }
+        #menu li:hover .sub-menu{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<!--ul#menu>li*4>a{link $}-->
+<ul id="menu">
+    <li>
+        <a href="" class="main-menu">link 1</a>
+        <ul class="sub-menu">
+            <li><a href="">submenu 1</a></li>
+            <li><a href="">submenu 2</a></li>
+            <li><a href="">submenu 3</a></li>
+        </ul>
+    </li>
+    <li>
+        <a href="" class="main-menu">link 2</a>
+        <ul class="sub-menu">
+            <li><a href="">submenu 1</a></li>
+            <li><a href="">submenu 2</a></li>
+            <li><a href="">submenu 3</a></li>
+        </ul>
+    </li>
+    <li><a href="" class="main-menu">link 3</a></li>
+    <li><a href="" class="main-menu">link 4</a></li>
+</ul>
+</body>
+</html>
