@@ -11,11 +11,11 @@ color: red;
 
 <body>
 <h1>可以应用样式：</h1>
-<p class="important warning">This is a paragraph.</a>
+<p class="important warning">This is a paragraph.</p>
 
 <hr />
 
 <h1>无法应用样式：</h1>
-<p class="important">This is a paragraph.</a>
+<p class="important">This is a paragraph.</p>
 </body>
 </html>
