@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>指定动画脚本</title>
+    <style type="text/css">
+        @keyframes mymovie {
+            0%{
+                lefe:0px;
+                top: 0px;
+            }
+            30%{
+                left: 200px;
+                top: 0px;
+            }
+            70%{
+                left: 200px;
+                top: 200px;
+            }
+            100%{
+                left: 400px;
+                top: 200px;
+            }
+
+        }
+        @-moz-keyframes mymovie {
+            0%{
+                lefe:0px;
+                top: 0px;
+            }
+            30%{
+                left: 200px;
+                top: 0px;
+            }
+            70%{
+                left: 200px;
+                top: 200px;
+            }
+            100%{
+                left: 400px;
+                top: 200px;
+            }
+
+        }
+        @-webkit-keyframes  {
+            0%{
+                lefe:0px;
+                top: 0px;
+            }
+            30%{
+                left: 200px;
+                top: 0px;
+            }
+            70%{
+                left: 200px;
+                top: 200px;
+            }
+            100%{
+                left: 400px;
+                top: 200px;
+            }
+        }
+        body{
+            margin: 0;
+        }
+        div{
+            text-align:center;
+            position: absolute;
+            padding: 10px;
+            height: 280px;
+            width: 470px;
+            border:1px solid #ff0000 ;
+            background-image: url(哆啦A梦.jpg);
+            animation-name: mymovie;
+            animation-duration: 5s;
+            -moz-animation-name: mymovie;
+            -moz-animation-duration: 5s;
+            -webkit-animation-name: mymovie;
+            -webkit-animation-duration: 5s;
+        }
+        </style>
+</head>
+<body>
+   <div>漂移的div块</div>
+</body>
+</html>
